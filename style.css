@@ -1,0 +1,169 @@
+.location{
+
+}
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location>p{
+    margin: 0px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+
+   
+}
+.vertical-line{
+    
+    height:55px;
+    border-left: 1px solid rgba(0, 0, 0,0.1);
+}
+.search-div>input{
+    border: none;
+    background-color: transparent;
+    width:40vw;
+    height: 40px;
+}
+::placeholder{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    
+}
+.my-cart{
+    background-color: #0d831e !important;
+    font-size: 14px !important;
+ 
+
+}
+.my-catagiories{
+    width: 85%;
+    
+}
+.my-list{
+    white-space: nowrap;
+}
+.my-container{
+    width: 85%;
+    overflow-x: auto;
+    margin: auto;
+}
+.my-list>img{
+padding-inline: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.my-card{
+    width: 179px;
+    display: inline-block;
+    
+}
+.price{
+   margin-left: 0%;
+}
+.my-card-time{
+    width: fit-content;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    padding: 0px 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+
+}
+.my-card-title{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+.my-card-weight {
+    color: #666666;
+    font-size:14px;
+    font-weight: bold;
+}
+.card-price>i{
+    
+}
+.my-list{
+    display:inline-flex;
+}
+.category-section{
+   width: 85%;
+   margin: auto;
+
+}
+.category-section-row{
+    width: 100%;
+    overflow: scroll;
+    padding: 20px;
+   
+    
+}
+.row2{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.download-section>p{
+color: #666666;
+font-weight: 600;
+font-size: 14px;
+margin: 16px;
+}
+.download-btn{
+    background-color: rgb(4, 4, 16);
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+.row1{
+    width:75%;
+    margin-top:20px ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    display: inline-flex;
+}
+.row2>p{
+    width:25% ;
+}
+.row3{
+    color: #666666;
+    font-size: 13px;
+    padding: 10px;
+}
+.social-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color:antiquewhite;
+    margin-inline: 10px;
+}
+.social{
+    display:flex;
+
+}
+.useful-links{
+    flex:2;
+}
+.c-links{
+    flex:3;
+}
+table{
+    width: 100%;
+    padding-left: 30px;
+}
+td{
+    font-size: 14px;
+    padding: 3px;
+}
