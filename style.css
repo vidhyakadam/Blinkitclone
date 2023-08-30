@@ -37,12 +37,19 @@
  
 
 }
-.my-catagiories{
-    width: 85%;
-    
+
+.coupon{
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin: 16px;
+    cursor: pointer;
 }
+
 .my-list{
     white-space: nowrap;
+    column-gap: 20px;
 }
 .my-container{
     width: 85%;
@@ -96,10 +103,7 @@ padding-inline: 10px;
 }
 .category-section-row{
     width: 100%;
-    overflow: scroll;
-    padding: 20px;
-   
-    
+    overflow: scroll; 
 }
 .row2{
     display:flex;
